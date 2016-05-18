@@ -1,0 +1,77 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Titre de la page</title>
+	<!-- <link rel="stylesheet" href="style.css"> -->
+	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+    <style>
+        html, body, #map-canvas, .displayData {
+            height: 80%;
+            margin: 50px;
+            padding: 10px,;
+        }
+
+        .titleApp {
+            margin: 40px 40px 10px 50px;
+        }
+
+        .displayData {
+            margin: 50px;
+            height: 20px;
+        }
+
+        body {
+            font-family: sans-serif, arial;
+        }
+
+        img.imgLogo {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+
+        div.textPopup {
+            margin-bottom: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="titleApp">
+        <h3>My Address Book </h3>
+    </div>
+
+    <div id="map-canvas"></div>
+    <div id="slider"></div>
+    <div class="displayData"></div>
+	<div id="nbrDataset"></div>
+
+
+
+
+
+    
+
+    
+    
+    <!--<script type="text/javascript" src="myMap.js"></script>-->
+<script type="text/javascript" src="js/map.js"></script>
+<script type="text/javascript">
+    loadData();
+
+</script>
+</body>
+</html>
+
+
+    
+   
+
+
